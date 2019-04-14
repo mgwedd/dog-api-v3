@@ -13,13 +13,16 @@
   <form>
     <fieldset>
       <legend>Enter a Dog Breed</legend>
-      <input type="text" name="numberOfDogs" value="hound">
+      <input type="text" name="dog-breed" value="hound">
       <input type="submit" value="Fetch!">
     </fieldset>
   </form>
+  
+  <section class="results-container hidden">
+    <ul id="js-image-results-list"></ul>
+  </section>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdn.rawgit.com/adriancooney/console.image/c9e6d4fd/console.image.min.js"></script>
   <script src="scripts.js"></script>
 </body>
 </html>
